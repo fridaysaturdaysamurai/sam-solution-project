@@ -18,3 +18,144 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+header {
+  background-color: #EFEFEF;
+}
+header h1 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+hr {
+  margin: 0;
+  opacity: 0.5;
+}
+
+.content-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+.price-list li {
+  list-style-type: none;
+  background-color: #EFEFEF;
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0 0 30px;
+}
+.price-list li:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+.price-list li img {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+.price-list li h2 {
+  margin: 10px 0 0 0;
+  font-size: 21px;
+}
+.price-list li p {
+  margin: 10px 0 0 0;
+}
+.price-list li .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.price-list li .details .counter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+.price-list li .details .counter-wrapper .counter-control {
+  margin: 0 10px 0 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 25px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: bold;
+}
+.price-list li .details .counter-wrapper .counter-control:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.price-list li .details .price {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.price-list li button {
+  margin: 10px 0 10px 0;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #000;
+}
+.price-list li button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.basket {
+  width: 400px;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.basket h2 {
+  margin: 50px 0 0 0;
+}
+.basket .basket-condition {
+  margin-top: 50px;
+}
+.basket .result {
+  margin-top: 50px;
+}
+.basket .buy-beer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.basket .buy-beer:hover {
+  background-color: green;
+  cursor: pointer;
+}
