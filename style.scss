@@ -80,16 +80,22 @@ hr {
 
             .counter-wrapper {
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 margin-top: 10px;
 
                 .counter-control {
+                    height: 30px;
+                    padding: 0;
                     margin: 0 10px 0 10px;
                     border: 1px solid #000;
                     border-radius: 10px;
                     width: 25px;
-                    text-align: center;
                     background-color: #fff;
                     font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     &:hover {
                         cursor: pointer;
                         background-color: green;
@@ -121,9 +127,10 @@ hr {
     height: 100%;
     border: 1px solid #000;
     border-radius: 5px;
-    margin-top: 50px;
+    margin: 50px 0 0 0;
+    padding: 0 0 0 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
     h2 {
         margin: 50px 0 0 0;
@@ -133,8 +140,66 @@ hr {
         margin-top: 50px;
     }
 
+    .basket-item {
+        border-bottom: 1px solid #000;
+        margin-top: 10px;
+
+        .top-content {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+
+            h2 {
+                 font-size: 18px;
+                 margin: 0;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 0 0 0 20px;
+            }
+        }
+
+        .bottom-content {
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .price {
+                font-weight: bold;
+            }
+
+            .counter-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .counter-control {
+                    height: 30px;
+                    padding: 0;
+                    margin: 0 10px 0 10px;
+                    border: 1px solid #000;
+                    border-radius: 10px;
+                    width: 25px;
+                    background-color: #fff;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: green;
+                    }
+                }
+            }
+        }
+    }
+
     .result {
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 
     .buy-beer {
@@ -145,6 +210,14 @@ hr {
         border-radius: 20px;
         &:hover {
             background-color: green;
+            cursor: pointer;
+        }
+    }
+
+    .clear-basket {
+        margin-bottom: 20px;
+        &:hover {
+            background-color: red;
             cursor: pointer;
         }
     }

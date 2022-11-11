@@ -96,16 +96,32 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 10px;
 }
 .price-list li .details .counter-wrapper .counter-control {
+  height: 30px;
+  padding: 0;
   margin: 0 10px 0 10px;
   border: 1px solid #000;
   border-radius: 10px;
   width: 25px;
-  text-align: center;
   background-color: #fff;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .price-list li .details .counter-wrapper .counter-control:hover {
   cursor: pointer;
@@ -131,13 +147,14 @@ hr {
   height: 100%;
   border: 1px solid #000;
   border-radius: 5px;
-  margin-top: 50px;
+  margin: 50px 0 0 0;
+  padding: 0 0 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 .basket h2 {
   margin: 50px 0 0 0;
@@ -145,8 +162,83 @@ hr {
 .basket .basket-condition {
   margin-top: 50px;
 }
+.basket .basket-item {
+  border-bottom: 1px solid #000;
+  margin-top: 10px;
+}
+.basket .basket-item .top-content {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.basket .basket-item .top-content h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.basket .basket-item .top-content p {
+  font-size: 18px;
+  margin: 0 0 0 20px;
+}
+.basket .basket-item .bottom-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+.basket .basket-item .bottom-content .price {
+  font-weight: bold;
+}
+.basket .basket-item .bottom-content .counter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.basket .basket-item .bottom-content .counter-wrapper .counter-control {
+  height: 30px;
+  padding: 0;
+  margin: 0 10px 0 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 25px;
+  background-color: #fff;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.basket .basket-item .bottom-content .counter-wrapper .counter-control:hover {
+  cursor: pointer;
+  background-color: green;
+}
 .basket .result {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .basket .buy-beer {
   margin-top: 20px;
@@ -157,5 +249,12 @@ hr {
 }
 .basket .buy-beer:hover {
   background-color: green;
+  cursor: pointer;
+}
+.basket .clear-basket {
+  margin-bottom: 20px;
+}
+.basket .clear-basket:hover {
+  background-color: red;
   cursor: pointer;
 }
