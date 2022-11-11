@@ -181,7 +181,9 @@ const clearBasket = document.querySelector('.clear-basket').addEventListener('cl
 })
 
 const checkout = document.querySelector('.buy-beer').addEventListener('click', () => {
-    alert('Thank you for the purchase!');
-    basketItems = [];
-    renderBasket();
+    if (basketItems.length > 0) {
+        alert('thank you for the purchase')
+    }
+        basketItems = [];
+        renderBasket();
 })
