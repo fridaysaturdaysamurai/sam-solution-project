@@ -1,12 +1,10 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*********************************************************************************************************/
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.ttf");
-}
 body {
   height: 100%;
   width: 100%;
@@ -34,17 +32,12 @@ hr {
 }
 
 .content-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .price-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 0;
   margin: 20px 0 0 0;
 }
@@ -52,16 +45,9 @@ hr {
   list-style-type: none;
   background-color: #EFEFEF;
   width: 320px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin: 30px 0 0 30px;
 }
 .price-list li:hover {
@@ -81,27 +67,14 @@ hr {
   margin: 10px 0 0 0;
 }
 .price-list li .details {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 .price-list li .details .counter-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
 }
 .price-list li .details .counter-wrapper .counter-control {
@@ -113,15 +86,9 @@ hr {
   width: 25px;
   background-color: #fff;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .price-list li .details .counter-wrapper .counter-control:hover {
   cursor: pointer;
@@ -149,12 +116,8 @@ hr {
   border-radius: 5px;
   margin: 50px 0 0 0;
   padding: 0 0 0 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
 }
 .basket h2 {
   margin: 50px 0 0 0;
@@ -168,12 +131,8 @@ hr {
 }
 .basket .basket-item .top-content {
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .basket .basket-item .top-content h2 {
   font-size: 18px;
@@ -184,28 +143,18 @@ hr {
   margin: 0 0 0 20px;
 }
 .basket .basket-item .bottom-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 .basket .basket-item .bottom-content .price {
   font-weight: bold;
 }
 .basket .basket-item .bottom-content .counter-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .basket .basket-item .bottom-content .counter-wrapper .counter-control {
   height: 30px;
@@ -216,15 +165,9 @@ hr {
   width: 25px;
   background-color: #fff;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .basket .basket-item .bottom-content .counter-wrapper .counter-control:hover {
   cursor: pointer;
@@ -232,13 +175,8 @@ hr {
 }
 .basket .result {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .basket .buy-beer {
   margin-top: 20px;

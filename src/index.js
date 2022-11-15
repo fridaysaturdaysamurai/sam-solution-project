@@ -1,9 +1,18 @@
+import './index.scss';
+
+import coronaImg from './assets/img/corona.jpg';
+import garageImg from './assets/img/garage.jpg';
+import grollsImg from './assets/img/grolls.png';
+import guinnesImg from './assets/img/guinnes.jpg';
+import obolonImg from './assets/img/obolon.jpg';
+import paulanerImg from './assets/img/paulaner.jpg';
+
 const ul = document.querySelector('.price-list');
 
 const items = [
     {
         id: 1,
-        imgSrc: "./assets/img/corona.jpg",
+        imgSrc: coronaImg,
         alt: "corona",
         title: 'Corona Extra',
         cl: 0.33,
@@ -12,7 +21,7 @@ const items = [
     },
     {
         id: 2,
-        imgSrc: "./assets/img/garage.jpg",
+        imgSrc: garageImg,
         alt: "garage",
         title: 'Garage',
         cl: 0.5,
@@ -22,7 +31,7 @@ const items = [
     ,
     {
         id: 3,
-        imgSrc: "./assets/img/grolls.png",
+        imgSrc: grollsImg,
         alt: "grolls",
         title: 'Grolls',
         cl: 0.35,
@@ -31,7 +40,7 @@ const items = [
     }
     ,    {
         id: 4,
-        imgSrc: "./assets/img/guinnes.jpg",
+        imgSrc: guinnesImg,
         alt: "guinnes",
         title: 'Guinnes',
         cl: 0.5,
@@ -41,7 +50,7 @@ const items = [
     ,
     {
         id: 5,
-        imgSrc: "./assets/img/obolon.jpg",
+        imgSrc: obolonImg,
         alt: "obolon",
         title: 'Obolon',
         cl: 0.5,
@@ -50,7 +59,7 @@ const items = [
     },
     {
         id: 6,
-        imgSrc: "./assets/img/paulaner.jpg",
+        imgSrc: paulanerImg,
         alt: "Paulaner",
         title: 'Paulaner',
         cl: 0.5,
